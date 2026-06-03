@@ -1,0 +1,7 @@
+package com.petshop.api.repository;
+
+import com.petshop.api.model.Produto;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface ProdutoRepository extends JpaRepository<Produto, Long> {
+}
